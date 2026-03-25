@@ -2,5 +2,5 @@
 
 LIVE
 [
-    https://heartdisease1111.streamlit.app
+    heart-disease-app-troubleshooterengg.streamlit.app
 ]
