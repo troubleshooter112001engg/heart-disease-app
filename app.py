@@ -493,7 +493,7 @@ with tab3:
         st.write(f"- {mname}: file `{fname}`")
 
     data = {
-        'Decision Trees': 90.97,
+        'Decision Trees': 90.07,
         'Logistic Regression': 89.86,
         'Random Forest': 94.23,
         'Support Vector Machine': 93.75,
