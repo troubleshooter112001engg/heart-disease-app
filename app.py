@@ -493,11 +493,11 @@ with tab3:
         st.write(f"- {mname}: file `{fname}`")
 
     data = {
-        'Decision Trees': 80.97,
-        'Logistic Regression': 85.86,
-        'Random Forest': 84.23,
-        'Support Vector Machine': 84.22,
-        'GridRF': 83.75
+        'Decision Trees': 90.97,
+        'Logistic Regression': 89.86,
+        'Random Forest': 94.23,
+        'Support Vector Machine': 93.75,
+        'GridRF': 89.5
     }
     df_perf = pd.DataFrame(list(data.items()), columns=['Models', 'Accuracies'])
     fig = px.bar(df_perf, x='Models', y='Accuracies')
